@@ -11,9 +11,13 @@ sudo apt update
 sudo apt install build-essential
 ```
 ### Fedora:
-```sudo dnf install gcc-c++ make```
+```
+sudo dnf install gcc-c++ make
+```
 ### Debian/Ubuntu:
-```sudo pacman -Syu base-devel```
+```
+sudo pacman -Syu base-devel
+```
 
 Then you can compile `main.cpp`:
 ```g++ -o dupfinder main.cpp -Wall```
